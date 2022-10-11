@@ -1,0 +1,422 @@
+.loginform{
+    /* height: 970px; */
+    padding: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url('../images/bg13.jpg'); */
+    background: linear-gradient(0deg,  rgba(175, 89, 218, 0.6)  0%, rgba(98, 151, 231, 0.6) 100%);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    opacity: 0.9;
+}
+.login{
+    padding: 100px;
+    background-color: rgb(237, 235, 235);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.6) 100%);
+    backdrop-filter: blur(3.5px);
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+    border-radius: 30px;
+    padding: 3rem 3rem;
+    margin: 0;
+   border: 2px solid #fff;
+   box-shadow: 4px 4px 6px rgba(133, 132, 133, 0.6);
+}
+.login h1{
+    font-family: Goudy Old Style;
+    font-weight: bold;
+    color: rgb(45, 0, 128);
+    padding-bottom: 20px;
+}
+.leftform{
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.leftform input{
+    padding: 8px;
+    margin-bottom: 20px;
+    width: 260px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #6563e1;
+}
+.leftform input:focus{
+box-sizing: 5px solid pink;
+    box-shadow: 0;
+}
+.leftform button{
+    font-family: Brush Script Std;
+    font-size: 19px;
+    border: 2px solid #6563e1;
+    padding: 4px;
+    color: #fff;
+    border-radius: 15px;
+    background-color: #009FFD ;
+    
+background: -webkit-linear-gradient( top , #3531EA, #8E7AE5);
+
+}
+.rightform{
+    padding: 20px;
+    border-radius: 30px;
+    background-image: url('../images/expense.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.loginimg{
+    padding: 200px;
+   
+}
+@media screen and (max-width:893px) {
+    .loginimg{
+        padding: 140px;
+       
+    }
+}
+@media screen and (max-width:780px) {
+    .loginimg{
+        padding: 95px;
+       
+    }
+    .loginform{
+        
+        padding: 140px;
+    }
+}
+@media screen and (max-width:683px) {
+    .login{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .leftform{
+        padding-right: 0px;
+        margin-bottom: 40px;
+       
+    }
+}
+@media screen and (max-width:400px) {
+    .login{
+        padding: 20px;
+    }
+}
+@media screen and (max-width:339px) {
+    .login{
+        padding: 20px 10px;
+    }
+}
+/* ----------- homepe portion------------------ */
+
+.home h1{
+    margin-top: 0px;
+background-color: #43427a;
+color: #fff;
+padding: 10px;
+text-align: center;
+}
+.calculations{
+    padding:30px  120px; 
+    padding-bottom: 100px;
+    display: flex;  
+    flex-direction: row;
+}
+.leftcalculate{
+    background: rgb(251, 248, 248);
+    background-image: url('../images//stars-changing-colors.gif');
+    padding: 40px 50px;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 30px;
+}
+.leftcalculate:hover{
+    box-shadow: 2px 2px 10px 2px  gray;
+}
+.leftcalculate h2{
+    background: linear-gradient(0deg,  rgba(223, 198, 235, 0.6)  0%, rgba(204, 220, 243, 0.6) 100%);
+    padding: 8px 15px;
+    box-shadow: 2px 2px 5px gray;
+    margin-bottom: 32px;
+    border-radius: 30px;
+}
+
+.clcinp1 input{
+width: 250px;
+    padding: 7px;
+    border-radius: 5px;
+}
+.clcinp1 h4{
+    margin-bottom: 4px;
+}
+
+.leftcalculate button{
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 2px;
+    margin-top: 10px;
+    width: 260px;
+    border-radius: 10px;
+    padding: 6px 15px;
+    background: linear-gradient( 90deg,  rgba(201, 109, 226, 0.6)  0%, rgba(196, 247, 224, 0.6) 100%);
+    box-shadow: 3px 3px 4px gray;
+}
+.leftcalculate button:focus{
+    box-shadow: 0px 0px 4px gray;
+}
+.calculatedata{
+    padding-top: 10px;
+}
+.calculatedata .earns{
+    font-size: 15px;
+    padding: 10px;
+    background: linear-gradient( 90deg,  rgba(91, 213, 152, 0.6)  0%, rgba(196, 247, 224, 0.6) 100%);
+}
+.calculatedata .saves{
+    font-size: 15px;
+    padding: 10px;
+    background: linear-gradient( 90deg,  rgba(59, 62, 243, 0.6)  0%, rgba(204, 220, 243, 0.6) 100%);
+}
+.calculatedata .expends{
+    font-size: 15px;
+    padding: 10px;
+    background: linear-gradient( 90deg,  rgba(231, 224, 16, 0.6)  0%, rgba(245, 249, 168, 0.6) 100%);
+}
+
+.calculatedata .expends:hover, .saves:hover, .earns:hover{
+    padding: 11px;
+    font-size: 17px;
+    transition: 1.6s;
+}
+
+.coinimage{
+    background-image: url('../images/co1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    position: relative;
+    float: right;
+    margin-right: 30px ;
+    height: 100px;
+    width: 100px;
+    animation-name: move ;
+    animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes move{
+    0%{
+        margin-top:20px;
+    }
+    50%{   
+        margin-top: -20px;
+    }
+    100%{
+        margin-top: 20px;
+    }  
+}
+.rightcalculate{
+    padding-top: 70px;
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rightcalculate .indicator{
+    display: flex;
+}
+.rightcalculate .indicator .blue{
+    background-color: rgba(88, 90, 241, 0.6) ;
+    padding: 6px 10px;
+    box-shadow: 1px 1px 2px #000;
+}
+.rightcalculate .indicator .green{
+    /* background-color: #00C49F; */
+    background-color: rgba(91, 213, 152, 0.6);
+    padding: 6px 10px;
+    margin-left: 30px;
+    box-shadow: 1px 1px 2px #000;
+}
+.rightcalculate .indicator .yellow{
+    box-shadow: 1px 1px 2px #000;
+    margin-left: 30px;
+    /* background-color: #FFBB28; */
+    background-color: rgba(231, 224, 16, 0.6);
+    padding: 6px 10px;
+}
+.rightcalculate .piechart{
+    padding-top: 50px;
+    font-size: 25px;
+}
+
+@media screen and (max-width:1290px) {
+    .rightcalculate{
+        padding-left: 0px;
+    }
+}
+@media screen and (max-width:1217px) {
+    .calculations{
+        display: flex;
+        flex-direction: column;
+    }
+    .clcinp1 button{
+       margin-left: 40px;
+    }
+}
+@media screen and (max-width:1038px) {
+    .clcinp1 input{
+        width: 200px;
+    }
+    .clcinp1 button{
+        margin-left: 20px;
+       width: 200px;
+     }
+}
+@media screen and (max-width:1024px) {
+.rightcalculate{
+    display: none;
+}
+}
+@media screen and (max-width:908px) {
+    .clcinp1 input{
+        width: 170px;
+    }
+    .clcinp1 button{
+        margin-left: 20px;
+       width: 190px;
+     }
+}
+@media screen and (max-width:868px) {
+    .clcinp1 input{
+        width: 260px;
+    }
+    .clcinp1 button{
+        margin-left: 0px;
+       width: 275px;
+     }
+}
+@media screen and (max-width:738px) {
+    .clcinp1 input{
+        width: 240px;
+    }
+    .clcinp1 button{
+        margin-left: 0px;
+       width: 255px;
+     }
+}
+@media screen and (max-width:716px){
+    .calculations{
+    padding: 90px;
+        }
+}
+@media screen and (max-width:652px){
+    .calculations{
+    padding: 70px;
+        }
+}
+@media screen and (max-width:614px){
+    .calculations{
+    padding: 50px;
+        }
+}
+@media screen and (max-width:716px){
+    .calculations{
+        padding: 70px;
+            }
+   .coinimage{
+    display: none;
+   }
+}
+@media screen and (max-width:480px){
+    .calculations{
+        padding: 40px;
+            }
+}
+@media screen and (max-width:426px){
+    .calculations{
+        padding: 20px;
+            }
+}
+@media screen and (max-width:380px){
+    .leftcalculate{
+        padding: 20px;
+            }
+}
+@media screen and (max-width:338px){
+    .calculations{
+        padding: 10px;
+            }
+}
+/* @media screen and (max-width:1316px) {
+    .rightcalculate{
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width:1224px),(min-width:1203px) {
+    .calculations{
+        display: flex;
+        flex-direction: column;
+    }
+    .leftcalculate{
+        display: flex;
+       
+    }
+    .clcinp1 input{
+        width: 200px;
+    }
+    .clcinp1 button{
+        margin-left: 15px;
+        width: 200px;
+    }
+    .calculatedata{
+        margin-left: 30px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .calculatedata .earns{
+        padding: 10px 80px;
+    }
+    .calculatedata .saves{
+        padding: 10px 80px;
+    }
+    .calculatedata .expends{
+        padding: 10px 80px;
+    }
+    .calculatedata .expends:hover, .saves:hover, .earns:hover{
+        padding: 10px 70px;
+        font-size: 17px;
+        transition: 1.6s;
+    }
+}
+
+@media screen and (max-width:1204px),(min-width:1104px) {
+    .clcinp1 input{
+        width: 150px;
+    }
+    .clcinp1 button{
+        margin-left: 15px;
+        width: 150px;
+    }
+}
+@media screen and (max-width:1104px){
+    .clcinp1 input{
+        width: 200px;
+    }
+    .clcinp1 button{
+        margin-left: 15px;
+        width: 200px;
+    }
+    .leftcalculate{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 20px;
+    }
+    
+} */
